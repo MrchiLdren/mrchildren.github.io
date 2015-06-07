@@ -4,18 +4,25 @@
 <head>
   <meta charset="utf-8">
   
-  <title>名词丨斯德哥尔摩综合征 | Limbo&#39;s story!</title>
+  <title>技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？ | Limbo&#39;s story!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="斯德哥尔摩综合征（英语：Stockholm syndrome；瑞典语：Stockholmssyndromet）又称为人质情结、人质综合症，是指犯罪的被害者对于加害者产生情感，甚至反过来帮助加害者的一种情结。">
+  <meta name="description" content="此教程适用除了 Linode 之外的所有 Xen 的 Debian 7 VPS（Virtual Private Server 虚拟专用服务器）。P.S.Po主将尽可能用白话文来解释整个SS-SERVICES安装和优化。
+&quot;&amp;gt;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="名词丨斯德哥尔摩综合征">
-<meta property="og:url" content="http://story.limboshop.info/2015/06/06/Stockholm-syndrome/index.html">
+<meta property="og:title" content="技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？">
+<meta property="og:url" content="http://story.limboshop.info/2015/06/07/how-2-build-a-ssservice-in-three-minutius/index.html">
 <meta property="og:site_name" content="Limbo's story!">
-<meta property="og:description" content="斯德哥尔摩综合征（英语：Stockholm syndrome；瑞典语：Stockholmssyndromet）又称为人质情结、人质综合症，是指犯罪的被害者对于加害者产生情感，甚至反过来帮助加害者的一种情结。">
-<meta property="og:updated_time" content="2015-06-06T10:30:49.000Z">
+<meta property="og:description" content="此教程适用除了 Linode 之外的所有 Xen 的 Debian 7 VPS（Virtual Private Server 虚拟专用服务器）。P.S.Po主将尽可能用白话文来解释整个SS-SERVICES安装和优化。
+&quot;&amp;gt;">
+<meta property="og:image" content="http://i.imgur.com/TAmygLm.jpg">
+<meta property="og:image" content="http://i.imgur.com/6DK4h5j.png">
+<meta property="og:image" content="http://i.imgur.com/4OgSX2N.png">
+<meta property="og:image" content="http://i.imgur.com/fkBfUYB.png">
+<meta property="og:updated_time" content="2015-06-07T16:27:14.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="名词丨斯德哥尔摩综合征">
-<meta name="twitter:description" content="斯德哥尔摩综合征（英语：Stockholm syndrome；瑞典语：Stockholmssyndromet）又称为人质情结、人质综合症，是指犯罪的被害者对于加害者产生情感，甚至反过来帮助加害者的一种情结。">
+<meta name="twitter:title" content="技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？">
+<meta name="twitter:description" content="此教程适用除了 Linode 之外的所有 Xen 的 Debian 7 VPS（Virtual Private Server 虚拟专用服务器）。P.S.Po主将尽可能用白话文来解释整个SS-SERVICES安装和优化。
+&quot;&amp;gt;">
   
     <link rel="alternative" href="/atom.xml" title="Limbo&#39;s story!" type="application/atom+xml">
   
@@ -72,14 +79,14 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-Stockholm-syndrome" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-how-2-build-a-ssservice-in-three-minutius" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2015/06/06/Stockholm-syndrome/" class="article-date">
-  <time datetime="2015-06-06T10:23:00.000Z" itemprop="datePublished">2015-06-06</time>
+    <a href="/2015/06/07/how-2-build-a-ssservice-in-three-minutius/" class="article-date">
+  <time datetime="2015-06-07T13:29:00.000Z" itemprop="datePublished">2015-06-07</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/名词解释/">名词解释</a>
+    <a class="article-category-link" href="/categories/简单技能/">简单技能</a>
   </div>
 
   </div>
@@ -90,7 +97,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      名词丨斯德哥尔摩综合征
+      技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？
     </h1>
   
 
@@ -98,36 +105,79 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>斯德哥尔摩综合征（英语：Stockholm syndrome；瑞典语：Stockholmssyndromet）又称为人质情结、人质综合症，是指犯罪的被害者对于加害者产生情感，甚至反过来帮助加害者的一种情结。<br><a id="more"></a></p>
-<p>via <a href="http://zh.wikipedia.org/wiki/%E6%96%AF%E5%BE%B7%E5%93%A5%E7%88%BE%E6%91%A9%E7%97%87%E5%80%99%E7%BE%A4" target="_blank" rel="external">维基百科</a></p>
-<h3 id="出现斯德哥尔摩症综合征的人士特征">出现斯德哥尔摩症综合征的人士特征</h3><p>美国联邦调查局的人质数据库显示，大约8%的人质表现出斯德哥尔摩综合征的症状。[3] 据心理学者的研究，情感上会依赖他人且容易受感动的人，若遇到类似的状况，很容易产生斯德哥尔摩综合征。</p>
-<h4 id="斯德哥尔摩综合征，通常有下列几项特征：">斯德哥尔摩综合征，通常有下列几项特征：</h4><ol>
-<li>绑匪为了某种“正义”原因而绑架人质，并得到人质认同。</li>
-<li>人质必须有真正感到绑匪（加害者）威胁到自己的存活。</li>
-<li>在遭挟持过程中，人质必须体会出绑匪（加害者）可能略施小惠的举动。</li>
-<li>除了绑匪的单一看法之外，人质必须与所有其他观点隔离（通常得不到外界的讯息）。</li>
-<li>人质必须相信，要脱逃是不可能的。</li>
+        <p><img src="http://i.imgur.com/TAmygLm.jpg" alt=""><br>此教程适用除了 Linode 之外的所有 Xen 的 <a href="https://www.debian.org/index.zh-cn.html" target="_blank" rel="external">Debian</a> 7 <a href="http://baike.baidu.com/item/VPS" target="_blank" rel="external">VPS</a>（Virtual Private Server 虚拟专用服务器）。P.S.Po主将尽可能用白话文来解释整个SS-SERVICES安装和优化。</p>
+<h2 id="<!-more->"><a id="more"></a></h2><h5 id="别急，我们有三分钟的时间来做这件事情…-（看来是不能愉快的玩耍了啊。）">别急，我们有三分钟的时间来做这件事情….<font><font color="grey">（看来是不能愉快的玩耍了啊。）</font></font></h5><ol>
+<li>你一定是Windows用户吧，如果不是，请直接跳到具体步骤部分。</li>
+<li>打开电脑先，在这里下载安装<a href="http://www.putty.org/" target="_blank" rel="external">PuTTY</a><font><font color="grey">（PuTTY是一个Telnet、SSH、rlogin、纯TCP以及串行接口连接软件。）</font></font></li>
+<li>看懂了嘛？继续</li>
 </ol>
-<h4 id="而通常斯德哥尔摩综合征会经历以下四大历程：">而通常斯德哥尔摩综合征会经历以下四大历程：</h4><ol>
-<li>恐惧：因为突如其来的胁迫与威吓导致现况改变。</li>
-<li>害怕：笼罩在不安的环境中，身心皆受威胁。</li>
-<li>同情：和挟持者长期相处体认到对方不得已行为，且并未受到‘直接’伤害。</li>
-<li>帮助：给予挟持者无形帮助如配合，不逃脱，安抚等；或有形帮助如协助逃脱，向法官说情，一起逃亡等。</li>
+<hr>
+<h5 id="具体操作部分_:">具体操作部分 :</h5><p>打开PuTTY，输入IP或主机域名<font><font color="grey">（推荐在<a href="https://www.linode.com/?r=e52ffb7bb6f974b0ef841740e547d87cf0742d69" target="_blank" rel="external">Linode</a>或<a href="https://www.conoha.jp/referral/?token=0BDcng8xnzvIpKgozDennBJks4CwzBuNYoCuhqK_c3iX4LDYQcc-TZB" target="_blank" rel="external">Conoha</a>购买服务器，我们留到后面再讲！）</font></font></p>
+<h2 id=""><img src="http://i.imgur.com/6DK4h5j.png" alt="">  </h2><p>点击OPEN（中文版面应该是打开）<br><img src="http://i.imgur.com/4OgSX2N.png" alt=""><br>（图2.1）<br>注:<font><font color="grey">login as:即以某用户登入<a href="http://baike.baidu.com/subview/16184/5909252.htm" target="_blank" rel="external">SSH</a>进行操作。正常情况下，默认为最高级别的ROOT权限。  </font><br>按（图2.1）输入所示输入root，按回车键，再输入root用户的密码，再按回车键。看吧，跟输入qq账号和密码一样简单。难吗？不难继续！<br><img src="http://i.imgur.com/fkBfUYB.png" alt=""><br>（图2.2）</font></p>
+<hr>
+<p>依次输入下方两条命令进行安装SS:<font><font color="red">（输入命令时时去掉$这个符号）</font>  </font></p>
+<pre><code><span class="variable">$apt</span>-get install curl
+<span class="variable">$curl</span> <span class="string">'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4'</span> &gt; /tmp/ss<span class="class">.sh</span> &amp;&amp; bash /tmp/ss<span class="class">.sh</span> &amp;&amp; rm /tmp/ss.sh
+</code></pre><p>查看shadowsocks是否在supervisorctl下运行了吗？</p>
+<pre><code><span class="variable">$supervisorctl</span> status
+</code></pre><p>获取随机SS账号</p>
+<pre><code><span class="variable">$cat</span> /etc/shadowsocks<span class="class">.json</span> 
+</code></pre><p>修改账号端口和密码</p>
+<pre><code><span class="variable">$vi</span> /etc/shadowsocks.json
+</code></pre><p>重启Shadowsocks</p>
+<pre><code><span class="variable">$supervisorctl</span> restart shadowsocks
+</code></pre><h4 id="附录:">附录:</h4><ol>
+<li><a href="https://github.com/shadowsocks/shadowsocks/wiki/%E5%9C%A8-Linode-%E4%B8%8A%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA-Shadowsocks" target="_blank" rel="external">在 Linode 上快速搭建 Shadowsocks</a><blockquote>
+<p>这是Clowwindy大大自己做的原教程</p>
+</blockquote>
+</li>
+<li><a href="https://www.youtube.com/channel/UCpMNpi0AArMmxWRi6-jqk0w?view_as=subscriber" target="_blank" rel="external">MARK.WONG@YOUTUBE</a><blockquote>
+<p>这里有无聊时做的教程视频，如果你不知无从下手可以看看视频了解下具体操作的简易难度。</p>
+</blockquote>
+</li>
+<li><a href="https://limboshop.info/archives/1817" target="_blank" rel="external">虚拟信用卡全球付购买Linode教程</a><blockquote>
+<p>使用<a href="https://www.linode.com/?r=e52ffb7bb6f974b0ef841740e547d87cf0742d69" target="_blank" rel="external">推荐链接</a>注册，注册时输入优惠码：linode10获得$10优惠，首先充值$5就好了，这样你就可以使用一个半月了。</p>
+<p>Referrals reward you when you refer people to Linode. If someone signs up using your referral code, you’ll receive a credit of $20.00, so long as the person you referred remains an active customer for 90 days.</p>
+</blockquote>
+</li>
+<li>Conoha购买教程？支付宝充值500日元先或<blockquote>
+<p>使用<a href="https://www.conoha.jp/referral/?token=hNJCeTGkrd.vQlVnMy0KzfNjBTvILo7lyskppl323Dg2XoBVR.o-LMN" target="_blank" rel="external">推荐链接</a>通过支付宝购买Conoha获得优惠券</p>
+<p>Receive a gift coupon by referring ConoHa to your friends.<br>When your friend uses 2,000 JPY or more worth of ConoHa service, we will give 2,000 JPY worth of gift coupon to you.</p>
+</blockquote>
+</li>
+<li>如果你决定购买，并长期使用，我非常欢迎使用limbo的推荐链接来注册<blockquote>
+<p> linode的选最低$10每月的就好了，因为linode新用户都是按小时扣费的，随时可以删掉不满意IP,我推荐add linode时选Fremont的服务器或Sinapore。日本Tokyo近期不会有，如需购买可以通过某宝：搜linode直接咨询店长有么有就可以了，一般10-20就可以买到。</p>
+<p>Conoha呢，我推荐Sinapore路线，CN2，新中直连，是电信用户的良药。</p>
+</blockquote>
+</li>
+<li>都不贵，最低60元一个月左右就可以满足10-15人合租了。<blockquote>
+<p>主要是需要个人来维护，有问题了总要有人个站出来解决嘛！<br>合租的话费用在15元及以上，我个人是建议按季度收费，每个月都来一次很浪费时间的。</p>
+<p>不管怎样，合租的话去哪儿的服务都差不多：全世界的服务器提供商就那么几个，同价格，质量都不会有差。这点你得明白。</p>
+</blockquote>
+</li>
+<li>如何优化SS?<blockquote>
+<p>所谓黑科技部分，<a href="www.serverspeeder.com">锐速</a>？毕竟是个大公司有专利，华为这斯也在用。<br>搞定SS后再来看看<a href="https://limboshop.info/archives/1260" target="_blank" rel="external">锐速教程</a>吧。</p>
+</blockquote>
+</li>
+<li>保持联系<blockquote>
+<p>MARKWONG<a href="https://plus.google.com/u/0/+MarkWongUnique/posts" target="_blank" rel="external">@GOOGLE PLUS</a><br>LIMBO社群<a href="https://plus.google.com/u/0/communities/115164128411943652076" target="_blank" rel="external">@GOOGLEPLUS</a><br>官方站点：<a href="https://limboshop.info" target="_blank" rel="external">https://limboshop.info</a><br>日落花园：<a href="htps://tory.limboshop.info" target="_blank" rel="external">story.limboshop.info</a><br>运维日志：<a href="http://note.limboshop.info" target="_blank" rel="external">note.limboshop.info</a><br>我的邮箱：limboshop.info@gmail.com</p>
+</blockquote>
+</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/06/Stockholm-syndrome/" data-id="ciakwcd5g000000o34qp5o36a" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/07/how-2-build-a-ssservice-in-three-minutius/" data-id="ciamii6op0000vjo387eavuus" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
-        <a href="http://story.limboshop.info/2015/06/06/Stockholm-syndrome/#ds-thread" class="article-comment-link">评论</a>
+        <a href="http://story.limboshop.info/2015/06/07/how-2-build-a-ssservice-in-three-minutius/#ds-thread" class="article-comment-link">评论</a>
       
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/斯德哥尔摩综合征/">斯德哥尔摩综合征</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shadowsocks/">shadowsocks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/简单技能/">简单技能</a></li></ul>
 
     </footer>
   </div>
@@ -135,19 +185,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/06/07/how-2-build-a-ssservice-in-three-minutius/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/06/06/praise/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2015/06/06/Stockholm-syndrome/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">自言丨溢美之辞或者恰到好处</div>
+      <div class="article-nav-title">名词丨斯德哥尔摩综合征</div>
     </a>
   
 </nav>
@@ -157,7 +198,7 @@
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2015/06/06/Stockholm-syndrome/" data-title="名词丨斯德哥尔摩综合征" data-url="http://story.limboshop.info/2015/06/06/Stockholm-syndrome/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2015/06/07/how-2-build-a-ssservice-in-three-minutius/" data-title="技能丨如何在三分钟内搭建一个可以运行的Shadowsocks服务？" data-url="http://story.limboshop.info/2015/06/07/how-2-build-a-ssservice-in-three-minutius/"></div>
   </section>
 </section>
       
