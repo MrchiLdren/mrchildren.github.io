@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://i.imgur.com/VAKcwOh.png">
 <meta property="og:image" content="http://i.imgur.com/SLj05Q6.png">
 <meta property="og:image" content="http://i.imgur.com/o0mUtNx.png">
-<meta property="og:updated_time" content="2015-06-18T01:16:54.000Z">
+<meta property="og:updated_time" content="2015-06-18T01:33:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="技能丨为你的朋友们免费提供谷歌搜索引擎">
 <meta name="twitter:description" content="free-search-project丨付费自由搜索项目，由你维护的谷歌搜索镜像。教程中我会用飘准的白话文介绍的，快的话，７/８分钟就好了。我们的目标是，用最小的代价：给自己和身边的朋友提供实时的谷歌搜索。">
@@ -112,7 +112,7 @@
       
         <p><img src="http://i.imgur.com/CB2PTfD.jpg" alt=""></p>
 <h5 id="free-search-project丨付费自由搜索项目，由你维护的谷歌搜索镜像。">free-search-project丨付费自由搜索项目，由你维护的谷歌搜索镜像。</h5><p>教程中我会用飘准的白话文介绍的，快的话，７/８分钟就好了。我们的目标是，用最小的代价：给自己和身边的朋友提供实时的谷歌搜索。<br><a id="more"></a></p>
-<h4 id="必备工具：">必备工具：</h4><p>1.一台可用的VPS（<a href="http://baike.baidu.com/view/309631.htm" target="_blank" rel="external">虚拟专用服务器</a>）；<br>2.伺服器系统选择：ubuntu 14.04（<a href="http://www.ubuntu.org.cn/global" target="_blank" rel="external">介绍</a>）</p>
+<h4 id="Demo：https://s-limboshop-info">Demo：<a href="https://s.limboshop.info" target="_blank" rel="external">https://s.limboshop.info</a></h4><h4 id="必备工具：">必备工具：</h4><p>1.一台可用的VPS（<a href="http://baike.baidu.com/view/309631.htm" target="_blank" rel="external">虚拟专用服务器</a>）；<br>2.伺服器系统选择：ubuntu 14.04（<a href="http://www.ubuntu.org.cn/global" target="_blank" rel="external">介绍</a>）</p>
 <blockquote>
 <p>本教程只介绍在Ubuntu 14.04的特定操作系统下简易做谷歌镜像服务的操作方法，初次尝试你可能需要一个纯净的系统来支持。<font><font color="red">注：本教程是以root用户通过ssh登入系统进行操作。（VPS一般都默认为此用户）</font> <font><font color="gr">//购买<a href="https://bandwagonhost.com/cart.php?a=confproduct&amp;i=1" target="_blank" rel="external">搬瓦工</a>//<a href="https://www.linode.com/?r=e52ffb7bb6f974b0ef841740e547d87cf0742d69" target="_blank" rel="external">linode.com</a>//<a href="https://www.conoha.jp/referral/?token=koGIOJhl5cKdz7NH.MsG.Wtv6BURaFQfctkqzR9cT5HZ5P6AP4I-I06" target="_blank" rel="external">conoha.jp</a>//前两者均支持万事达卡和<a href="https://www.paypal.com" target="_blank" rel="external">paypal</a>，conoha支持支付宝。</font></font></font></p>
 </blockquote>
@@ -208,9 +208,12 @@
 <span class="comment"># redirect server error pages to the static page /50x.html</span>
 <span class="comment">#</span>
 <span class="title">error_page</span>   <span class="number">500</span> <span class="number">502</span> <span class="number">503</span> <span class="number">504</span>  /50x.html;
-</code></pre><p>附录：<br>3.1　项目地址：<a href="https://github.com/cuber/ngx_http_google_filter_module" target="_blank" rel="external">https://github.com/cuber/ngx_http_google_filter_module</a><br>3.2　如何安装nginx第三方模块：<a href="http://www.ttlsa.com/nginx/how-to-install-nginx-third-modules/" target="_blank" rel="external">http://www.ttlsa.com/nginx/how-to-install-nginx-third-modules/</a><br>3.3　SSL+Nginxの配置相关知识：<a href="https://github.com/cuber/ngx_http_google_filter_module/issues/27" target="_blank" rel="external">https://github.com/cuber/ngx_http_google_filter_module/issues/27</a></p>
+</code></pre><p>附录：<br>3.1　项目地址：<a href="https://github.com/cuber/ngx_http_google_filter_module" target="_blank" rel="external">https://github.com/cuber/ngx_http_google_filter_module</a><br>3.2　如何安装nginx第三方模块：<a href="http://www.ttlsa.com/nginx/how-to-install-nginx-third-modules/" target="_blank" rel="external">http://www.ttlsa.com/nginx/how-to-install-nginx-third-modules/</a><br>3.3　SSL+Nginxの配置相关知识：<a href="https://github.com/cuber/ngx_http_google_filter_module/issues/27" target="_blank" rel="external">https://github.com/cuber/ngx_http_google_filter_module/issues/27</a><br>3.4　原作者相关答疑：<a href="https://github.com/cuber/ngx_http_google_filter_module/issues" target="_blank" rel="external">https://github.com/cuber/ngx_http_google_filter_module/issues</a> (我建议在有疑问／建议可在此pull issues)</p>
 <h4 id="Demo">Demo</h4><p>4.0　Demo：<a href="https:s.limboshop.info" target="_blank" rel="external">https:s.limboshop.info</a></p>
 <h4 id="步骤５：给浏览器自定义搜索引擎">步骤５：给浏览器自定义搜索引擎</h4><p><img src="http://i.imgur.com/SLj05Q6.png" alt=""><br><strong>e.g.</strong><br>设置默认搜索为：<a href="https://s.limboshop.info" target="_blank" rel="external">https://s.limboshop.info</a><br><img src="http://i.imgur.com/o0mUtNx.png" alt=""></p>
+<h4 id="步骤6：将此文分享给你信任的圈子吧">步骤6：将此文分享给你信任的圈子吧</h4><p>文章地址：<a href="http://story.limboshop.info/2015/06/17/free-search-project/">http://story.limboshop.info/2015/06/17/free-search-project/</a></p>
+<h4 id="笔者后言">笔者后言</h4><p>尽管可以翻墙去使用 Google，但是有时连翻墙手段都不稳定的情况下，此刻又有搜索国外技术内容的需求时怎么办？如果你有一个VPS，提供相关fq服务，若没有搭建网站相关，可以试试这个？为周围的同学朋友提供自由的谷歌搜索引擎。</p>
+<h4 id="联系我吧">联系我吧</h4><p>邮箱：limboshop.info@gmail.com<br>主站：<a href="http://limboshop.info" target="_blank" rel="external">http://limboshop.info</a><br>花园：<a href="http://story.limboshop.info">http://story.limboshop.info</a><br>维护：<a href="http://note.limboshop.info" target="_blank" rel="external">http://note.limboshop.info</a><br>Google+：<a href="http://plus.google.com/u/0/+MarkWongUnique/posts" target="_blank" rel="external">http://plus.google.com/u/0/+MarkWongUnique/posts</a></p>
 
       
     </div>
