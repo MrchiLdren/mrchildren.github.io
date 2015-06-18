@@ -17,7 +17,7 @@
 <meta property="og:image" content="http://i.imgur.com/VAKcwOh.png">
 <meta property="og:image" content="http://i.imgur.com/SLj05Q6.png">
 <meta property="og:image" content="http://i.imgur.com/o0mUtNx.png">
-<meta property="og:updated_time" content="2015-06-18T02:14:06.000Z">
+<meta property="og:updated_time" content="2015-06-18T04:47:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="技能丨为你的朋友们提供谷歌搜索引擎／又名简易谷歌搜索镜像制作">
 <meta name="twitter:description" content="教程中我会用飘准的白话文介绍的，快的话，７/８分钟就好了。我们的目标是，用最小的代价：给自己和身边的朋友提供实时的谷歌搜索。">
@@ -137,7 +137,7 @@
 </code></pre><p>2.1 编译 ./configure</p>
 <pre><code>$ ./configure --prefix=<span class="regexp">/usr/</span>local/nginx-<span class="number">1.7</span>.8 --add-<span class="built_in">module</span>=<span class="regexp">/root/</span>ngx_http_google_filter_module --add-<span class="built_in">module</span>=<span class="regexp">/root/</span>ngx_http_substitutions_filter_module --<span class="keyword">with</span>-http_ssl_module  
 </code></pre><p><img src="http://i.imgur.com/VAKcwOh.png" alt=""><br>2.2 如上一条操作无误，则继续：make</p>
-<pre><code>$ <span class="built_in">make</span> &amp; <span class="built_in">make</span> install
+<pre><code>$ <span class="built_in">make</span> &amp;&amp; <span class="built_in">make</span> install
 </code></pre><p>2.3 启动 nginx或关闭nginx ()</p>
 <pre><code><span class="variable">$ </span>/usr/local/nginx-<span class="number">1.7</span>.<span class="number">8</span>/nginx
 <span class="variable">$ </span>killall nginx
