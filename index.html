@@ -118,7 +118,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/23/nobody-care/" data-id="cib8vi0w0000079o3o9fbdv18" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/23/nobody-care/" data-id="cibbjgc4k0020seo31uingcr3" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -172,7 +172,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/20/Slutshaming/" data-id="cib4eqefd0000vfo3iipduq2h" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/20/Slutshaming/" data-id="cibbjgc66003qseo3wil07b1e" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -225,7 +225,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/17/free-search-project/" data-id="cib109roz0000wto3qo2bz3la" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/17/free-search-project/" data-id="cibbjgc54002oseo3bo5kgmug" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -274,7 +274,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/17/jokes-of-stock-market/" data-id="cib106gd5002bcno3pwcyz6my" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/17/jokes-of-stock-market/" data-id="cibbjgc50002kseo3ijhr45at" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -323,7 +323,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/15/If-by-Life-You-Were-Deceived/" data-id="cib106gen003kcno3pmepj91u" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/15/If-by-Life-You-Were-Deceived/" data-id="cibbjgc6q0045seo3cpu4jhwt" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -374,7 +374,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/13/Different/" data-id="cib106gf70045cno3gjdirhcj" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/13/Different/" data-id="cibbjgc77004qseo3j0i63ny5" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -423,7 +423,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/13/THE-WHOLE-LIFE-OF-IE/" data-id="cib106gdw002vcno3jw3xx12u" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/13/THE-WHOLE-LIFE-OF-IE/" data-id="cibbjgc5o003bseo346psez1t" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -476,7 +476,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/11/Freedom-of-speech/" data-id="cib106gf1003wcno3x4vzgsp4" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/11/Freedom-of-speech/" data-id="cibbjgc71004hseo3hh6909ea" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -527,7 +527,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/09/virus-of-the-mind/" data-id="cib106gc1000xcno32lvvu9ks" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/09/virus-of-the-mind/" data-id="cibbjgc3q000xseo37slt6e40" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -580,7 +580,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/08/Stagnant-water/" data-id="cib106ge70035cno3t6ve3yge" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/08/Stagnant-water/" data-id="cibbjgc60003lseo3qrpapupm" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -720,10 +720,12 @@
       
     </div>
     <footer id="footer">
-  
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 limboshop.info<br>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
       .
       Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a><br/><form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">

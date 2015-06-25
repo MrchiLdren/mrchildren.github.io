@@ -116,7 +116,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/06/01/yanzhikou/" data-id="cib106gbm000gcno3w1vfqn2l" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/06/01/yanzhikou/" data-id="cibbjgc39000gseo3a1wz71si" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -168,7 +168,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/31/Use-your-voices-to-claim-your-rights/" data-id="cib106gdr002qcno38j2vocb5" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/31/Use-your-voices-to-claim-your-rights/" data-id="cibbjgc5j0036seo3j12z6g5w" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -221,7 +221,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/30/zerotoone-part3/" data-id="cib106gbe0008cno3f1fjwx11" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/30/zerotoone-part3/" data-id="cibbjgc300008seo3vrn28plv" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -273,7 +273,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/29/zerotoone-part2/" data-id="cib106gbi000ccno3fp1qsd0p" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/29/zerotoone-part2/" data-id="cibbjgc35000cseo3w0en8x9i" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -327,7 +327,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/29/Google-IO-2015-reviews/" data-id="cib106geu003pcno3789qgjqo" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/29/Google-IO-2015-reviews/" data-id="cibbjgc6v004aseo3zm6p2g16" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -380,7 +380,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/28/Interneteffect/" data-id="cib106gej003ecno3esfof04x" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/28/Interneteffect/" data-id="cibbjgc6l003zseo30iaxjbzz" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -434,7 +434,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/28/zerotoone/" data-id="cib106gb30001cno3uxirw5ze" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/28/zerotoone/" data-id="cibbjgc2o0001seo38q5hsag5" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -489,7 +489,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/27/xuanshang-dropbox/" data-id="cib106gbr000ncno39i3ofkig" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/27/xuanshang-dropbox/" data-id="cibbjgc3g000nseo3no5g3w4y" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -538,7 +538,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/26/xijinpingoffical-shutdown-the-account-of-instagram/" data-id="cib106gbx000ucno3c3jba909" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/26/xijinpingoffical-shutdown-the-account-of-instagram/" data-id="cibbjgc3m000useo3p1wjv9o2" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -592,7 +592,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/05/25/luxun/" data-id="cib106gd20027cno3iuzqf3u9" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/05/25/luxun/" data-id="cibbjgc4v002gseo3yc5caxct" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -732,10 +732,12 @@
       
     </div>
     <footer id="footer">
-  
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 limboshop.info<br>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
       .
       Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a><br/><form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">

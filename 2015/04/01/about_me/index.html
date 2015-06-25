@@ -143,7 +143,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://story.limboshop.info/2015/04/01/about_me/" data-id="cib106gdl002mcno3rr52k7y3" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://story.limboshop.info/2015/04/01/about_me/" data-id="cibbjgc5e0032seo3xjgpwgb9" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -296,10 +296,12 @@
       
     </div>
     <footer id="footer">
-  
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 limboshop.info<br>
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
       .
       Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a><br/><form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
